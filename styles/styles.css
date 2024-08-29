@@ -1,6 +1,22 @@
 :root{
-    
+    --primario: #138a4f;
+    --gris: #e1e1e1;
+    --blanco: #FFFFFF;
+    --negro: #000000;
 }
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
 .navbar-item{
     text-decoration: none;
     color: #fff;
