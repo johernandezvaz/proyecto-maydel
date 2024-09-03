@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+/*Variables*/
 :root{
     --primario: #379777;
     --gris: #e1e1e1;
@@ -27,6 +27,8 @@ body{
 
 /*Navegacion*/
 .navbar-item{
+    flex-grow: 1;
+    text-align: center;
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
@@ -64,14 +66,15 @@ body{
     color: #fff;
 }
 
-.nav-list button:hover{
-    background-color: #555;
-}
+
 
 .nav-list{
     text-decoration: none;
     display: flex;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 
@@ -94,26 +97,52 @@ body{
 
 /*Banner*/
 .banner{
-    background-color: var(--gris);
+    background: linear-gradient(to bottom, var(--gris), var(--blanco));
     display: grid;
     grid-template-areas: 
     "titulo         titulo"
     "alternativo    imagen";
-    flex-direction: column;
 }
 
 .banner-titulo{
     margin: 0;
+    padding-top:  1rem;
+    padding-bottom:  1rem;
     text-align: center;
     grid-area: titulo;
+    font-weight: 500;
 }
 
 
 .alternativo{
     grid-area: alternativo;
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    align-items: center;
     color: var(--primario);
+    font-weight: 400;
 }
 
+@media (min-width: 768px){
+    .alternativo{
+        margin: 0 4rem 0 4rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: var(--primario);
+        font-weight: 600;
+
+    }
+
+    .banner-titulo{
+        margin: 0;
+        padding-top:  1rem;
+        padding-bottom:  1rem;
+        text-align: center;
+        grid-area: titulo;
+        font-weight: 500;
+    }
+}
 .banner-imagen{
     width: 80%;
 }
