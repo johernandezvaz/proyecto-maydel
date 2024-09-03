@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+/*Variables*/
 :root{
     --primario: #379777;
     --gris: #e1e1e1;
@@ -51,7 +51,7 @@ body{
 
 /*Banner*/
 .banner{
-    background-color: var(--gris);
+    background: linear-gradient(to bottom, var(--gris), var(--blanco));
     display: grid;
     grid-template-areas: 
     "titulo         titulo"
@@ -63,10 +63,15 @@ body{
     margin: 0;
     text-align: center;
     grid-area: titulo;
+    font-weight: 500;
 }
 .alternativo{
     grid-area: alternativo;
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    align-items: center;
     color: var(--primario);
+    font-weight: 400;
 }
 
 .banner-imagen{
