@@ -56,11 +56,12 @@ body{
     grid-template-areas: 
     "titulo         titulo"
     "alternativo    imagen";
-    flex-direction: column;
 }
 
 .banner-titulo{
     margin: 0;
+    padding-top:  1rem;
+    padding-bottom:  1rem;
     text-align: center;
     grid-area: titulo;
     font-weight: 500;
@@ -74,6 +75,26 @@ body{
     font-weight: 400;
 }
 
+@media (min-width: 768px){
+    .alternativo{
+        margin: 0 4rem 0 4rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: var(--primario);
+        font-weight: 600;
+
+    }
+
+    .banner-titulo{
+        margin: 0;
+        padding-top:  1rem;
+        padding-bottom:  1rem;
+        text-align: center;
+        grid-area: titulo;
+        font-weight: 500;
+    }
+}
 .banner-imagen{
     width: 80%;
 }
