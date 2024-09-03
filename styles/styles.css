@@ -26,73 +26,67 @@ body{
 }
 
 /*Navegacion*/
-.navbar-item{
-    flex-grow: 1;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.navbar-item.active{
-    border: 2px solid white;
-    background-color: #333;
-}
-
-.navbar-item button{
-    padding: 10px 20px;
-    background-color: #444;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.nav-list button{
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    height: 10%;
-    border-radius: 10%;
-}
-
-.inicio-sesion{
-    background-color: #fff;
-    color: #000000;
-}
-
-.registrarse{
-    background-color: #000;
-    color: #fff;
-}
-
-
-
-.nav-list{
-    text-decoration: none;
+.header {
     display: flex;
-    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: var(--primario); /* Color de fondo del header */
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
-
-.logo{
-    width: 10%;
-    margin-left: 50px;
+.logo {
+    height: 100px; /* Ajusta el tamaño del logo */
+    margin-right: 20px;
 }
-/*Header*/
-.header{
-    width: 100%;
-    height: 100%;
-    background-color: var(--primario);
-    flex-direction: column;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+
+.navbar-item {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.navbar-item:hover {
+    color: #ddd;
+}
+
+.iniciar-sesion,
+.registrarse {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.registrarse {
+    background-color: #2D2D2D; /* Fondo del botón "Registrarme" */
+    color: white;
+}
+
+.iniciar-sesion:hover,
+.registrarse:hover {
+    background-color: #ccc;
+}
+
+.registrarse:hover {
+    background-color: #444;
+}
+
+.cart-icon {
+    font-size: 24px;
+    margin-left: 20px;
+    color: #2D2D2D;
 }
 
 /*Banner*/
