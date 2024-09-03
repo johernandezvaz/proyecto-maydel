@@ -1,5 +1,5 @@
 :root{
-    --primario: #138a4f;
+    --primario: #379777;
     --gris: #e1e1e1;
     --blanco: #FFFFFF;
     --negro: #000000;
@@ -31,7 +31,7 @@ body{
 .header{
     width: 100%;
     height: 100%;
-    background-color: #379777;
+    background-color: var(--primario);
     display: flex;
     flex-direction: column;
     flex-flow: column;
