@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --primario: #379777;
     --gris: #e1e1e1;
     --blanco: #FFFFFF;
-    --negro: #000000;
+    --negro: #000000; 
 }
 html{
     box-sizing: border-box;
@@ -26,7 +28,6 @@ body{
 .nav-list{
     text-decoration: none;
 }
-
 
 .header{
     width: 100%;
