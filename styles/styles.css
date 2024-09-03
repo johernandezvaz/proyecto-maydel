@@ -31,7 +31,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
-    background-color: var(--primario); /* Color de fondo del header */
+    background-color: var(--primario); 
 }
 
 .nav-list {
@@ -43,7 +43,7 @@ body{
 }
 
 .logo {
-    height: 100px; /* Ajusta el tamaño del logo */
+    height: 100px; 
     margin-right: 20px;
 }
 
@@ -70,7 +70,7 @@ body{
 }
 
 .registrarse {
-    background-color: #2D2D2D; /* Fondo del botón "Registrarme" */
+    background-color: #2D2D2D; 
     color: white;
 }
 
