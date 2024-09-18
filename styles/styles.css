@@ -91,11 +91,13 @@ body{
 
 /*Banner*/
 .banner{
-    background: linear-gradient(to bottom, var(--gris), var(--blanco));
+    background: linear-gradient(to bottom,var(--blanco) , var(--gris));
+    background-color: var(--gris);
     display: grid;
     grid-template-areas: 
     "titulo         titulo"
     "alternativo    imagen";
+
 }
 
 .banner-titulo{
@@ -117,33 +119,38 @@ body{
     font-weight: 400;
 }
 
-@media (min-width: 768px){
-    .alternativo{
-        margin: 0 4rem 0 4rem;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: var(--primario);
-        font-weight: 600;
-
-    }
-
-    .banner-titulo{
-        margin: 0;
-        padding-top:  1rem;
-        padding-bottom:  1rem;
-        text-align: center;
-        grid-area: titulo;
-        font-weight: 500;
-    }
-}
 .banner-imagen{
     width: 80%;
 }
-
+/*Seccion de articulos*/
 .articulos{
     max-width: 1200px;
     width: 100%;
     margin: 40px auto;
     display: flex;
 }
+/*Opiniones*/
+.opiniones{
+    background-color: var(--gris);
+}
+/*Footer*/
+.footer{
+    text-align: center;
+}
+.listas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lista{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lista:first-child{
+    text-transform: capitalize;
+}
+
+
