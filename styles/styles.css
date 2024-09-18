@@ -140,3 +140,10 @@ body{
 .banner-imagen{
     width: 80%;
 }
+
+.articulos{
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+}
