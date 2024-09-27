@@ -153,4 +153,34 @@ body{
     text-transform: capitalize;
 }
 
+/*MEDIA QUERIES*/
+/*MEDIA QUERIES PARA TABLETS*/ 
+@media (min-width: 768px){
+    .banner-titulo{
+        margin: 0;
+        padding-top:  1rem;
+        padding-bottom:  1rem;
+        font-weight: 500;
+    }
+    
+    .alternativo{
+        grid-area: alternativo;
+        margin: 0 1rem 0 1rem;
+        display: flex;
+        align-items: center;
+        color: var(--primario);
+        font-weight: 400;
+    }
+    
+    .banner-imagen{
+        width: 80%;
+    }
+}
+/*MEDIA QUERIES PARA PC*/
+@media (min-width: 1200px){
 
+}
+/*MEDIA QUERIES PARA TELEFONOS*/
+@media (min-width: 480px){
+
+}
