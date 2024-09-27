@@ -124,11 +124,13 @@ body{
 }
 /*Seccion de articulos*/
 .articulos{
-    max-width: 1200px;
+    max-width: 120rem;
     width: 100%;
     margin: 40px auto;
     display: flex;
+    flex-direction: column;
 }
+
 /*Opiniones*/
 .opiniones{
     background-color: var(--gris);
@@ -154,33 +156,42 @@ body{
 }
 
 /*MEDIA QUERIES*/
+
+/*MEDIA QUERIES PARA TELEFONOS*/
+@media (min-width: 480px){
+    .articulos-titulo{
+        font-size: 1.8rem;
+    }
+}
 /*MEDIA QUERIES PARA TABLETS*/ 
 @media (min-width: 768px){
     .banner-titulo{
-        margin: 0;
-        padding-top:  1rem;
-        padding-bottom:  1rem;
-        font-weight: 500;
+        font-size: 2.5rem;
+        font-weight: 700;
     }
     
     .alternativo{
-        grid-area: alternativo;
-        margin: 0 1rem 0 1rem;
-        display: flex;
-        align-items: center;
-        color: var(--primario);
-        font-weight: 400;
+        font-weight: 600;
+        font-size: 2.5rem;
     }
-    
     .banner-imagen{
         width: 80%;
+    }
+    .articulos-titulo{
+        font-size: 3.8rem;
     }
 }
 /*MEDIA QUERIES PARA PC*/
 @media (min-width: 1200px){
-
-}
-/*MEDIA QUERIES PARA TELEFONOS*/
-@media (min-width: 480px){
-
+    .banner-titulo{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .alternativo{
+        font-weight: 600;
+        font-size: 4rem;
+    }
+    .articulos-titulo{
+        font-size: 5rem;
+    }
 }
