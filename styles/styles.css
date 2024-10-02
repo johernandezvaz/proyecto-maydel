@@ -51,7 +51,7 @@ body{
     color: white;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .navbar-item:hover {
@@ -183,11 +183,21 @@ body{
 }
 /*MEDIA QUERIES PARA PC*/
 @media (min-width: 1200px){
+    .navbar-item {
+        font-size: 2.6rem;
+    }
+    .iniciar-sesion,
+    .registrarse {
+        font-size: 2.4rem;
+    }
+
     .banner-titulo{
         font-size: 4rem;
         font-weight: 700;
     }
     .alternativo{
+        display: flex;
+        justify-content: center;
         font-weight: 600;
         font-size: 4rem;
     }
