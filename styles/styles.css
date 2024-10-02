@@ -136,6 +136,10 @@ body{
     background-color: var(--gris);
 }
 /*Footer*/
+.imagen-logo{
+    position: relative;
+    top: 5rem;
+}
 .footer{
     text-align: center;
 }
