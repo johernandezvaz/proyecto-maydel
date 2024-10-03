@@ -24,7 +24,11 @@
         <div>
             <button class="iniciar-sesion">Iniciar Sesión</button>
             <button class="registrarse">Registrarme</button>
-            <span class="cart-icon">🛒</span> <!-- Usando un emoji para el ícono del carrito -->
+            <button class="cart-icon2"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-bag" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="#2D2D2D" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" />
+                <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+              </svg></button> <!-- Usando un emoji para el ícono del carrito -->
         </div>
     </header>
 
@@ -36,7 +40,7 @@
         <img src="./img/banner.png" alt="imagen always aesthetic" class="banner-imagen">
     </div>
 
-    <section class="articulos">
+    <section id="articulos">
         <h2 class="articulos-titulo">Artículos mas comprados</h2>
         <div class="articulo">
             <img src="" alt="imagen del articulo">
@@ -70,14 +74,32 @@
         <button>VER CATALOGO COMPLETO</button>
     </section>
 
-    <section class="opiniones">
+    <section id="opiniones">
         <div class="opinion">
-            <p>place holder estrellas</p>
+            <p>⭐⭐⭐⭐⭐</p>
             <h4>Review title</h4>
-            <p>Review body</p>
-            <img src="" alt="foto-usuario">
             <p>User name</p>
+            <img class="foto-usuario" src="./img/logo.png" alt="foto-usuario">
+            <p>Review body</p>
         </div>
+        <div class="opinion">
+            <p>⭐⭐⭐⭐⭐</p>
+            <h4>Review title</h4>
+            <p>User name</p>
+            <img class="foto-usuario" src="./img/logo.png" alt="foto-usuario">
+            <p>Review body</p>
+        </div>
+        <div class="opinion">
+            <p>⭐⭐⭐⭐⭐</p>
+            <h4>Review title</h4>
+            <p>User name</p>    
+            <img class="foto-usuario" src="./img/logo.png" alt="foto-usuario">
+            <p>Review body</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h1>AQUI VA UN AREA DE CONTACTO</h1>
     </section>
     
     <footer class="footer">
@@ -87,7 +109,7 @@
             </div>
             <ul class="lista">
                 <a href="#">Inicio</a>
-                <a href="#">Catálogo</a>
+                <a href="#articulos">Catálogo</a>
                 <a href="#">FAQs</a>
                 <a href="#">Precios</a>
                 <a href="#">Contáctanos</a>
