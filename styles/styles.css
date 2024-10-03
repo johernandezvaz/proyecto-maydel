@@ -138,7 +138,7 @@ body{
 /*Footer*/
 .imagen-logo{
     position: relative;
-    top: 5rem;
+    top: 1.5rem;
 }
 .footer{
     text-align: center;
@@ -153,6 +153,14 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.lista>a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    color: var(--negro);
 }
 
 .lista:first-child{
@@ -184,6 +192,11 @@ body{
     .articulos-titulo{
         font-size: 3.8rem;
     }
+    .listas{
+        padding: 2rem 4rem;
+        display: flex;
+        justify-content: space-between;
+    }   
 }
 /*MEDIA QUERIES PARA PC*/
 @media (min-width: 1200px){
@@ -208,4 +221,12 @@ body{
     .articulos-titulo{
         font-size: 5rem;
     }
+    .listas{
+        padding: 2rem 4rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .lista>a{
+        text-align: center;    
+    }  
 }
