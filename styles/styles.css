@@ -30,7 +30,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 20px 10px;
     background-color: var(--primario); 
 }
 
@@ -39,7 +39,7 @@ body{
     align-items: center;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 20 px;
 }
 
 .logo {
@@ -63,7 +63,7 @@ body{
     background-color: #ddd;
     border: none;
     padding: 10px 15px;
-    margin: 0 5px;
+    margin: 0 30px;
     cursor: pointer;
     border-radius: 5px;
     font-size: 14px;
@@ -84,9 +84,15 @@ body{
 }
 
 .cart-icon {
-    font-size: 24px;
-    margin-left: 20px;
-    color: #2D2D2D;
+    width: 15%;
+    height: 10%;
+}
+
+.cart-icon2{
+    width: 15%;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
 }
 
 /*Banner*/
@@ -123,7 +129,7 @@ body{
     width: 80%;
 }
 /*Seccion de articulos*/
-.articulos{
+#articulos{
     max-width: 120rem;
     width: 100%;
     margin: 40px auto;
@@ -132,8 +138,12 @@ body{
 }
 
 /*Opiniones*/
-.opiniones{
+#opiniones{
     background-color: var(--gris);
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 20px 30px;
 }
 /*Footer*/
 .imagen-logo{
@@ -167,10 +177,14 @@ body{
     text-transform: capitalize;
 }
 
+.foto-usuario{
+    max-width: 20%;
+}
+
 /*MEDIA QUERIES*/
 
 /*MEDIA QUERIES PARA TELEFONOS*/
-@media (min-width: 300px){
+@media (min-width: 480px){
     .articulos-titulo{
         font-size: 1.8rem;
     }
