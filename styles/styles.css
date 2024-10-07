@@ -139,7 +139,9 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+.articulo > img{
+    max-width: 40%;
+}
 /*Opiniones*/
 #opiniones{
     background-color: var(--gris);
