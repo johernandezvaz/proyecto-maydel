@@ -62,13 +62,16 @@ body{
 .registrarse {
     background-color: #ddd;
     border: none;
-    padding: 10px 15px;
-    margin: 0 30px;
+    padding: 10px;
+    margin: 50px 15px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 14px;
 }
-
+.contenedor-navbar{
+    display: flex;
+    flex-direction: row;
+}
 .registrarse {
     background-color: #2D2D2D; 
     color: white;
