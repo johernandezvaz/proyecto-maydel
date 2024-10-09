@@ -152,6 +152,8 @@ body{
 }
 /*Contacto*/
 .formulario{
+    border: 3px solid var(--gris);
+    box-shadow: 10px 10px var(--gris);
     background-color: var(--blanco);
     margin: 0 auto;
     width: 95%;
