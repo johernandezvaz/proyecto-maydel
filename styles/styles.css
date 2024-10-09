@@ -17,7 +17,7 @@ html{
 *, *:before, *:after{
     box-sizing: inherit;
 }
-h1, h2, h3, h4, p{
+h1, h2, h3, h4, p, label{
     font-family: var(--fuentePrincipal);
 }
 body{
@@ -149,6 +149,29 @@ body{
     justify-content: space-evenly;
     /* align-items: center; */
     padding: 20px 30px;
+}
+/*Contacto*/
+.formulario{
+    background-color: var(--blanco);
+    margin: 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+    text-align: end;
+}
+.campo__label{
+    flex: 0 0 9rem;
+    padding-right: 2rem;
+}
+.campo__field{
+    flex: 1;
+    border: 1px solid var(--gris);
+}
+.campo__field--textarea{
+    height: 20rem;
 }
 /*Footer*/
 .imagen-logo{
