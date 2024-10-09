@@ -151,6 +151,11 @@ body{
     padding: 20px 30px;
 }
 /*Contacto*/
+#contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .formulario{
     border: 3px solid var(--gris);
     box-shadow: 10px 10px var(--gris);
