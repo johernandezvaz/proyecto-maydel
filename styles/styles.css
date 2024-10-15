@@ -179,6 +179,7 @@ body{
 }
 .campo__field--textarea{
     height: 20rem;
+    width: 80%;
 }
 /*Footer*/
 .imagen-logo{
