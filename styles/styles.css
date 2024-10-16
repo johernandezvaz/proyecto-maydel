@@ -24,7 +24,37 @@ body{
     font-size: 1.6rem;
     line-height: 2;
 }
+/*Utilidades*/
+.no-margin{
+    margin: 0;
+}
+.no-padding{
+    padding: 0;
+}
+.centrar-texto{
+    text-align: center;
+}
+.boton{
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    margin: 50px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.boton-oscuro{
+    background-color: #2D2D2D; 
+    color: white;
+}
 
+.boton:hover{
+    background-color: #ccc;
+}
+
+.boton-oscuro:hover{
+    background-color: #444;
+}
 /*Navegacion*/
 .header {
     display: flex;
@@ -57,33 +87,9 @@ body{
 .navbar-item:hover {
     color: #ddd;
 }
-
-.iniciar-sesion,
-.registrarse {
-    background-color: #ddd;
-    border: none;
-    padding: 10px;
-    margin: 50px 15px;
-    cursor: pointer;
-    border-radius: 10px;
-    font-size: 14px;
-}
 .contenedor-navbar{
     display: flex;
     flex-direction: row;
-}
-.registrarse {
-    background-color: #2D2D2D; 
-    color: white;
-}
-
-.iniciar-sesion:hover,
-.registrarse:hover {
-    background-color: #ccc;
-}
-
-.registrarse:hover {
-    background-color: #444;
 }
 
 .cart-icon {
@@ -136,11 +142,37 @@ body{
     max-width: 120rem;
     width: 100%;
     margin: 40px auto;
+    display: grid;
+    grid-template-areas: 
+    "articulo-1     articulo-2"
+    "articulo-3     articulo-4"
+    "boton          boton";
+
+}
+.articulo{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.articulo > button{
+    display: flex;
+    flex-direction: row;
 }
 .articulo > img{
-    max-width: 40%;
+    height: 40rem;
+    max-width: 60%;
+}
+.articulo-1{
+    grid-area: articulo-1;
+}
+.articulo-2{
+    grid-area: articulo-2;
+}
+.articulo-3{
+    grid-area: articulo-3;
+}
+.articulo-4{
+    grid-area: articulo-4;
 }
 /*Opiniones*/
 #opiniones{
