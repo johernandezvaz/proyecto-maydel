@@ -147,14 +147,23 @@ body{
     margin: 40px auto;
     display: grid;
     grid-template-areas: 
-    "titulo         titulo"
     "articulo-1     articulo-2"
     "articulo-3     articulo-4"
     "boton          boton";
 
 }
+.articulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.articulo > button{
+    display: flex;
+    flex-direction: row;
+}
 .articulo > img{
-    max-width: 40%;
+    height: 40rem;
+    max-width: 60%;
 }
 .articulo-1{
     grid-area: articulo-1;
