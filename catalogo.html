@@ -1,87 +1,235 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
-    <script src="./scripts/index.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/catalog.css">
+    <title>Catálogo - Maydel</title>
 </head>
 <body>
     <header class="header">
-        <ul class="nav-list">
-            <img class="logo" src="./img/logo.png" alt="logo maydel">
-            <a href="#" class="navbar-item">Inicio</a>
-            <a href="#" class="navbar-item">Catálogo</a>
-            <a href="#" class="navbar-item">FAQs</a>
-            <a href="#" class="navbar-item">Precios</a>
-            <a href="#" class="navbar-item">Contáctanos</a>
-        </ul>
-        <div class="contenedor-navbar">
-            <button class="boton">Iniciar Sesión</button>
-            <button class="boton boton-oscuro">Registrarme</button>
-            <button class="cart-icon2"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-bag" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="#2D2D2D" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" />
-                <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
-            </svg></button> 
-        </header>
-
-        <h1 class="h1"></h1>
-        <div class="flexsearch">
-                <div class="flexsearch--wrapper">
-                    <form class="flexsearch--form" action="#" method="post">
-                        <div class="flexsearch--input-wrapper">
-                            <input class="flexsearch--input" type="search" placeholder="Busca tus artículos favoritos"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-                                <path d="M21 21l-6 -6" />
-                              </svg>
-                        </div>
-                        
-                    </form>
-                </div>
-                <div class="contenedor-navbar">
-                    <button class="nuevo">Nuevo</button>
-                    <button class="precio-ascendente">Precio ascendente</button>
-                    <button class="precio-descendente">Precio descendente</button>
-                    <button class="calificacion">Calificación</button>
-                </div>
-                
+        <nav class="nav-list">
+            <div class="nav-logo">
+                <img class="logo" src="./img/logo.png" alt="Mixdas logo">
             </div>
-                <section class="catalogo">
-                  <h1 class="banner-titulo">CATÁLOGO COMPLETO</h1>
-           
-                <aside class="aside">
-                    
-                    <input type="checkbox"> <label for="beige">Beige</label>
-                    <input type="checkbox"> 
-                    <input type="checkbox">   
-                    
-                </aside>
-            </section>
+            
+            <div class="nav-links">
+                <a href="index.html" class="navbar-item">Inicio</a>
+                <a href="#" class="navbar-item active">Catálogo</a>
+                <a href="#" class="navbar-item">FAQs</a>
+                <a href="#" class="navbar-item">Precios</a>
+                <a href="#contacto" class="navbar-item">Contáctanos</a>
+            </div>
 
-                <footer class="footer">
-                    <div class="listas">
-                        <div class="imagen-logo">
-                            <img class="logo" src="/img/logo.png" alt="imagen-logo">
-                        </div>
-                        <ul class="lista">
-                            <a href="#">Inicio</a>
-                            <a href="#articulos">Catálogo</a>
-                            <a href="#">FAQs</a>
-                            <a href="#">Precios</a>
-                            <a href="#">Contáctanos</a>
-                        </ul>
+            <div class="nav-actions">
+                <button class="boton">Iniciar Sesión</button>
+                <button class="boton boton-oscuro">Registrarme</button>
+                <button class="cart-icon2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
+                        <path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" />
+                        <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+                    </svg>
+                </button>
+                <button class="btn-menu" aria-label="Menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <a href="index.html" class="mobile-link">Inicio</a>
+            <a href="#" class="mobile-link">Catálogo</a>
+            <a href="#" class="mobile-link">FAQs</a>
+            <a href="#" class="mobile-link">Precios</a>
+            <a href="#contacto" class="mobile-link">Contáctanos</a>
+            <div class="mobile-actions">
+                <button class="boton">Iniciar Sesión</button>
+                <button class="boton boton-oscuro">Registrarme</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="catalog-container">
+        <aside class="filters">
+            <div class="filters-header">
+                <h2>Filtros</h2>
+                <button class="clear-filters">Limpiar</button>
+            </div>
+
+            <div class="filter-section">
+                <h3>Categoría</h3>
+                <div class="filter-options">
+                    <label class="filter-option">
+                        <input type="checkbox" name="category" value="sweatshirt">
+                        <span>Sudaderas</span>
+                    </label>
+                    <label class="filter-option">
+                        <input type="checkbox" name="category" value="tshirt">
+                        <span>Camisetas</span>
+                    </label>
+                    <label class="filter-option">
+                        <input type="checkbox" name="category" value="pants">
+                        <span>Pantalones</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3>Color</h3>
+                <div class="filter-options">
+                    <label class="filter-option">
+                        <input type="checkbox" name="color" value="black">
+                        <span class="color-dot black"></span>
+                        <span>Negro</span>
+                    </label>
+                    <label class="filter-option">
+                        <input type="checkbox" name="color" value="white">
+                        <span class="color-dot white"></span>
+                        <span>Blanco</span>
+                    </label>
+                    <label class="filter-option">
+                        <input type="checkbox" name="color" value="blue">
+                        <span class="color-dot blue"></span>
+                        <span>Azul</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3>Talla</h3>
+                <div class="filter-options size-options">
+                    <label class="size-option">
+                        <input type="checkbox" name="size" value="xs">
+                        <span>XS</span>
+                    </label>
+                    <label class="size-option">
+                        <input type="checkbox" name="size" value="s">
+                        <span>S</span>
+                    </label>
+                    <label class="size-option">
+                        <input type="checkbox" name="size" value="m">
+                        <span>M</span>
+                    </label>
+                    <label class="size-option">
+                        <input type="checkbox" name="size" value="l">
+                        <span>L</span>
+                    </label>
+                    <label class="size-option">
+                        <input type="checkbox" name="size" value="xl">
+                        <span>XL</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3>Precio</h3>
+                <div class="price-range">
+                    <input type="range" min="0" max="200" value="100" class="price-slider">
+                    <div class="price-inputs">
+                        <input type="number" value="0" min="0" max="200" class="price-input">
+                        <span>-</span>
+                        <input type="number" value="200" min="0" max="200" class="price-input">
                     </div>
-                    <div>
-                        <p>Todos los derechos reservados</p>
-                    </div>
-                </footer>
-        </body>
-        </html>
+                </div>
+            </div>
+        </aside>
+
+        <section class="catalog-content">
+            <div class="catalog-header">
+                <div class="search-bar">
+                    <input type="search" placeholder="Buscar productos...">
+                    <button class="search-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="catalog-actions">
+                    <select class="sort-select">
+                        <option value="popular">Más populares</option>
+                        <option value="newest">Más nuevos</option>
+                        <option value="price-asc">Precio: Menor a Mayor</option>
+                        <option value="price-desc">Precio: Mayor a Menor</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product cards will be added dynamically via JavaScript -->
+            </div>
+
+            <div class="pagination">
+                <button class="pagination-btn" disabled>Anterior</button>
+                <div class="pagination-numbers">
+                    <button class="pagination-number active">1</button>
+                    <button class="pagination-number">2</button>
+                    <button class="pagination-number">3</button>
+                    <span>...</span>
+                    <button class="pagination-number">10</button>
+                </div>
+                <button class="pagination-btn">Siguiente</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Productos</h3>
+                <ul>
+                    <li><a href="#">Ropa Deportiva</a></li>
+                    <li><a href="#">Calzado</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                    <li><a href="#">Novedades</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Empresa</h3>
+                <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Carreras</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Prensa</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Soporte</h3>
+                <ul>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Envíos</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Términos</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Licencias</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
+                <a href="#" aria-label="Twitter"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg></a>
+                <a href="#" aria-label="Instagram"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2024 Mixdas. Todos los derechos reservados.</p>
+                <img src="./img/logo.png" alt="Mixdas" class="footer-logo">
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/navigation.js"></script>
+    <script src="./js/catalog.js"></script>
+</body>
+</html>
