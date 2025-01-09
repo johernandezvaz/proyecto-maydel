@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const products = [
         {
             id: 1,
-            name: 'Sudadera Classic Blue',
-            category: 'Sudaderas',
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
             price: 59.99,
-            image: 'https://placehold.co/300x400/87CEEB/FFF'
+            image: ''
         },
         {
             id: 2,
