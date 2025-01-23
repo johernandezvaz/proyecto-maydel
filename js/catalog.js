@@ -6,23 +6,114 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: ''
+            image: '../img catálogo stagmy/stagmy1.PNG'
         },
         {
             id: 2,
-            name: 'Camiseta Urban Style',
-            category: 'Camisetas',
-            price: 29.99,
-            image: 'https://placehold.co/300x400/90EE90/FFF'
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy2.PNG'
         },
         {
             id: 3,
-            name: 'Pantalón Sport Pro',
-            category: 'Pantalones',
-            price: 49.99,
-            image: 'https://placehold.co/300x400/FFB6C1/FFF'
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy3.PNG'
         },
-        // Add more products as needed
+        {
+            id: 4,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy4.PNG'
+        },
+        {
+            id: 5,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy5.PNG'
+        },
+        {
+            id: 6,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy6.PNG'
+        },
+        {
+            id: 7,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy7.PNG'
+        },
+        {
+            id: 8,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy8.PNG'
+        },
+        {
+            id: 9,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy9.PNG'
+        },
+        {
+            id: 10,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy10.PNG'
+        },
+        {
+            id: 11,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy11.PNG'
+        },
+        {
+            id: 12,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy12.PNG'
+        },
+        {
+            id: 13,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy13.PNG'
+        },
+        {
+            id: 14,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy14.PNG'
+        },
+        {
+            id: 15,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy15.PNG'
+        },
+        {
+            id: 16,
+            name: 'Faja stagmy',
+            category: 'Fajas stagmy',
+            price: 59.99,
+            image: '../img catálogo stagmy/stagmy16.PNG'
+        },
+        
     ];
 
     const productsGrid = document.querySelector('.products-grid');
