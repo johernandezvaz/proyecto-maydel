@@ -6,112 +6,112 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy1.PNG'
+            image: '../img_catalogo_stagmy/stagmy1.png'
         },
         {
             id: 2,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy2.PNG'
+            image: '../img_catalogo_stagmy/stagmy2.png'
         },
         {
             id: 3,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy3.PNG'
+            image: '../img_catalogo_stagmy/stagmy3.png'
         },
         {
             id: 4,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy4.PNG'
+            image: '../img_catalogo_stagmy/stagmy4.png'
         },
         {
             id: 5,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy5.PNG'
+            image: '../img_catalogo_stagmy/stagmy5.png'
         },
         {
             id: 6,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy6.PNG'
+            image: '../img_catalogo_stagmy/stagmy6.png'
         },
         {
             id: 7,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy7.PNG'
+            image: '../img_catalogo_stagmy/stagmy7.png'
         },
         {
             id: 8,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy8.PNG'
+            image: '../img_catalogo_stagmy/stagmy8.png'
         },
         {
             id: 9,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy9.PNG'
+            image: '../img_catalogo_stagmy/stagmy9.png'
         },
         {
             id: 10,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy10.PNG'
+            image: '../img_catalogo_stagmy/stagmy10.png'
         },
         {
             id: 11,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy11.PNG'
+            image: '../img_catalogo_stagmy/stagmy11.png'
         },
         {
             id: 12,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy12.PNG'
+            image: '../img_catalogo_stagmy/stagmy12.png'
         },
         {
             id: 13,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy13.PNG'
+            image: '../img_catalogo_stagmy/stagmy13.png'
         },
         {
             id: 14,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy14.PNG'
+            image: '../img_catalogo_stagmy/stagmy14.png'
         },
         {
             id: 15,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy15.PNG'
+            image: '../img_catalogo_stagmy/stagmy15.png'
         },
         {
             id: 16,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: '../img_catalogo_stagmy/stagmy16.PNG'
+            image: '../img_catalogo_stagmy/stagmy16.png'
         },
         
     ];
