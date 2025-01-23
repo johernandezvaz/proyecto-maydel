@@ -6,112 +6,112 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy1.png'
+            image: 'img/stagmi/stagmy1.png'
         },
         {
             id: 2,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy2.png'
+            image: 'img/stagmi/stagmy2.png'
         },
         {
             id: 3,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy3.png'
+            image: 'img/stagmi/stagmy3.png'
         },
         {
             id: 4,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy4.png'
+            image: 'img/stagmi/stagmy4.png'
         },
         {
             id: 5,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy5.png'
+            image: 'img/stagmi/stagmy5.png'
         },
         {
             id: 6,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy6.png'
+            image: 'img/stagmi/stagmy6.png'
         },
         {
             id: 7,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy7.png'
+            image: 'img/stagmi/stagmy7.png'
         },
         {
             id: 8,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy8.png'
+            image: 'img/stagmi/stagmy8.png'
         },
         {
             id: 9,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy9.png'
+            image: 'img/stagmi/stagmy9.png'
         },
         {
             id: 10,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy10.png'
+            image: 'img/stagmi/stagmy10.png'
         },
         {
             id: 11,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy11.png'
+            image: 'img/stagmi/stagmy11.png'
         },
         {
             id: 12,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy12.png'
+            image: 'img/stagmi/stagmy12.png'
         },
         {
             id: 13,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy13.png'
+            image: 'img/stagmi/stagmy13.png'
         },
         {
             id: 14,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy14.png'
+            image: 'img/stagmi/stagmy14.png'
         },
         {
             id: 15,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy15.png'
+            image: 'img/stagmi/stagmy15.png'
         },
         {
             id: 16,
             name: 'Faja stagmy',
             category: 'Fajas stagmy',
             price: 59.99,
-            image: 'img_catalogo_stagmy/stagmy16.png'
+            image: 'img/stagmi/stagmy16.png'
         },
         
     ];
